@@ -15,7 +15,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-style: italic;
-  src: local('FuturaMed'), url('../public/fonts/SwarovskiFutura-Med.woff2') format('woff2');
+  src: local('FuturaMed'), url('../public/fonts/SwarovskiFutura-Med.woff2');
 }
 
 @font-face {
@@ -23,7 +23,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-style: italic;
-  src: local('FuturaLight'), url('../public/fonts/SwarovskiFutura-Light.woff2') format('woff2');
+  src: local('FuturaLight'), url('../public/fonts/SwarovskiFutura-Light.woff2');
 }
 
 @font-face {
@@ -31,5 +31,5 @@ body {
   font-display: swap;
   font-weight: 400;
   font-style: italic;
-  src: local('Minerva'), url('../public/fonts/MINERVAMODERNRegular.woff2') format('woff2');
+  src: local('Minerva'), url('../public/fonts/MINERVAMODERNRegular.woff2');
 }
