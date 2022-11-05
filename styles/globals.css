@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+  font-family: 'FuturaMed';
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: local('FuturaMed'), url('../public/fonts/SwarovskiFutura-Med.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FuturaLight';
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: local('FuturaLight'), url('../public/fonts/SwarovskiFutura-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Minerva';
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: local('Minerva'), url('../public/fonts/MINERVAMODERNRegular.woff2') format('woff2');
+}
